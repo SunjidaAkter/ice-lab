@@ -36,10 +36,10 @@
     color: white;
 }
 
-img {
+.img-container img {
     transition: all 0.3s linear;
 }
 
-img:hover {
+.img-container img:hover {
     transform: translate(0px, -10px);
 }
