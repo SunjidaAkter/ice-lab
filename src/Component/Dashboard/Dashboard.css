@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue:wght@400;700&family=Courgette&family=Inter:wght@400;700&family=Lobster&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap');
 
 .normal {
-    color: #41332c;
+
     font-size: 30px;
     font-family: 'Balsamiq Sans', cursive;
     font-weight: 700;
     text-align: center;
+}
+
+.chart-container {
+    background-color: rgba(32, 22, 4, 0.705);
+    border-radius: 20px;
 }

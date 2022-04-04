@@ -1,0 +1,23 @@
+.review-container {
+    padding: 20px;
+    background-color: rgba(250, 228, 187, 0.644);
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.review-container:hover {
+    transform: translate(0px, 5px);
+}
+
+.headings {
+
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.star {
+    width: 20px;
+    color: orange;
+}

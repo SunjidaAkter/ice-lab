@@ -41,13 +41,14 @@ const Dashboard = () => {
         }
     ];
     return (
-        <div className='container '>
-            <div className='d-flex justify-lg-content-between flex-sm-column flex-lg-row justify-content-sm-center mx-auto'>
-
-                <div className=' mx-auto'>
-                    <p className='normal my-4'>MONTH WISE SELL</p>
+        <div className='conatiner'>
+            <p className='heading orange-color'>ANALYSIS</p>
+            <div className='d-flex justify-content-evenly'>
+                <div className=''>
+                    <p className='headings coffy-color my-4'>Month Wise Sell</p>
+                    <p className='normal orange-color mb-3 '>Line Chart</p>
                     <div className='d-flex justify-content-center'>
-                        <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                        <LineChart width={500} height={300} data={data} margin={{ top: 5, right: 0, bottom: 5, left: 0 }}>
                             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                             <XAxis dataKey="month" />
@@ -57,8 +58,9 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className=' mx-auto'>
-                    <p className='normal my-4'>Investment VS Revenue</p>
+                <div className=''>
+                    <p className='headings coffy-color my-4'>Investment VS Revenue</p>
+                    <p className='normal orange-color mb-3'>Area Chart</p>
                     <div className='d-flex justify-content-center'>
                         <AreaChart
                             width={500}
@@ -66,7 +68,7 @@ const Dashboard = () => {
                             data={data}
                             margin={{
                                 top: 10,
-                                right: 30,
+                                right: 0,
                                 left: 0,
                                 bottom: 0,
                             }}
@@ -93,6 +95,8 @@ const Dashboard = () => {
                 </div>
             </div>
         </div>
+
+
 
     );
 };
