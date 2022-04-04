@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue:wght@400;700&family=Courgette&family=Inter:wght@400;700&family=Lobster&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap');
+
+.orange-color {
+    color: orange;
+}
+
+.heading {
+    color: #41332c;
+    font-size: 40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.normal {
+    color: #41332c;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: #41332c;
+    color: white;
+}
+
+img {
+    transition: all 0.3s linear;
+}
+
+img:hover {
+    transform: translate(0px, -10px);
+}
