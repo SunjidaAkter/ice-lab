@@ -9,18 +9,19 @@ const Review = ({ review }) => {
 
     if (ratings === 4) {
         rating4 = <span className='d-flex justify-content-center'>
-            <StarIcon className='star' ></StarIcon>
-            <StarIcon className='star' ></StarIcon>
-            <StarIcon className='star' ></StarIcon>
-            <StarIcon className='star' ></StarIcon>
+            <StarIcon className='orange-star' ></StarIcon>
+            <StarIcon className='orange-star' ></StarIcon>
+            <StarIcon className='orange-star' ></StarIcon>
+            <StarIcon className='orange-star' ></StarIcon>
+            <StarIcon className='ash-star' ></StarIcon>
         </span>
     } else {
         rating5 = <span className='d-flex justify-content-center'>
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
+            <StarIcon className='orange-star' />
+            <StarIcon className='orange-star' />
+            <StarIcon className='orange-star' />
+            <StarIcon className='orange-star' />
+            <StarIcon className='orange-star' />
         </span>
     }
     return (

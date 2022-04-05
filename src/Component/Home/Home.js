@@ -10,8 +10,8 @@ const Home = () => {
         <div className='container'>
             <div className='banner d-flex justify-content-between align-items-center mt-5'>
                 <div className='text-container'>
-                    <p className='heading coffy-color'>Feel Inside Cold with <br /> Our Delicious <span className='orange-color'>Ice Cream</span></p>
-                    <p className='normal coffy-color'>Enjoy It Before Melting. Made by Hand with Love. We Serve You the Best. We use natural ingredients. We have Wide range of products.</p>
+                    <p className='heading coffy-color'>Feel Inside Cold with <br />The Delicious <span className='orange-color'>Ice Cream</span></p>
+                    <p className='normal coffy-color'>Enjoy It Before Melting. Made by Hand with Love. You will be Served in the Best Way. Natural ingredients are used mostly. You will get Wide range of products.</p>
                     <div className='d-flex justify-content-center'>
                         <button className='px-4 py-2 btn'>EXPLORE</button>
                     </div>
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div>
                 <p className='heading orange-color mt-5 mb-3'>Testimonial</p>
-                <p className='heading coffy-color'>OUR CUSTOMER REVIEW</p>
+                <p className='heading coffy-color'>CUSTOMER REVIEW</p>
             </div>
             <div>
                 <div className='container reviews-container'>

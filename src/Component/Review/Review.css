@@ -17,7 +17,12 @@
     text-align: center;
 }
 
-.star {
+.orange-star {
     width: 20px;
     color: orange;
+}
+
+.ash-star {
+    width: 20px;
+    color: rgba(68, 67, 67, 0.582);
 }

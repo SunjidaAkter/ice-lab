@@ -1,6 +1,6 @@
 # Live Link: [ICE LAB]( https://icelab-icecream-shop.netlify.app/)
 
-# Four Tasks I have done for this project
+# Four Tasks I Have Done For This Project
 * Dashboard added.
 * Used destructuring.
 * Used conditional rendering.

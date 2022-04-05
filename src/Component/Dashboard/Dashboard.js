@@ -1,5 +1,5 @@
 import React from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, LineChart, Line } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, LineChart, Line, BarChart, Legend, Bar, Pie, PieChart } from 'recharts';
 
 const Dashboard = () => {
     const data = [
@@ -87,9 +87,58 @@ const Dashboard = () => {
                             <XAxis dataKey="month" />
                             <YAxis />
                             <Tooltip />
-                            <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorUv)" />
-                            <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorPv)" />
+                            <Area type="monotone" dataKey="investment" stroke="#82ca9d" fillOpacity={1} fill="url(#colorUv)" />
+                            <Area type="monotone" dataKey="revenue" stroke="#8884d8" fillOpacity={1} fill="url(#colorPv)" />
                         </AreaChart>
+                    </div>
+
+                </div>
+            </div>
+            <div className='d-flex justify-content-evenly mt-5'>
+                <div className=''>
+                    <p className='headings coffy-color my-4'>Investment VS Revenue</p>
+                    <p className='normal orange-color mb-3 '>Bar Chart</p>
+                    <div className='d-flex justify-content-center'>
+                        <BarChart
+                            width={500}
+                            height={300}
+                            data={data}
+                            margin={{
+                                top: 5,
+                                right: 30,
+                                left: 20,
+                                bottom: 5,
+                            }}
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="month" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Bar dataKey="investment" fill="#8884d8" />
+                            <Bar dataKey="revenue" fill="#82ca9d" />
+                        </BarChart>
+                    </div>
+                </div>
+
+                <div className=''>
+                    <p className='headings coffy-color my-4'>Month Wise Sell</p>
+                    <p className='normal orange-color mb-3'>Pie Chart</p>
+                    <div className='d-flex justify-content-center'>
+                        <PieChart width={300} height={400}>
+                            <Pie
+                                dataKey="sell"
+                                startAngle={180}
+                                endAngle={0}
+                                data={data}
+                                cx="50%"
+                                cy="50%"
+                                outerRadius={80}
+                                fill="#8884d8"
+                                label
+                            />
+
+                        </PieChart>
                     </div>
 
                 </div>
