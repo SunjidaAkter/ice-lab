@@ -11,7 +11,7 @@ const Home = () => {
             <div className='banner d-flex justify-content-between align-items-center mt-5'>
                 <div className='text-container'>
                     <p className='heading coffy-color'>Feel Inside Cold with <br />The Delicious <span className='orange-color'>Ice Cream</span></p>
-                    <p className='normal coffy-color'>Enjoy It Before Melting. Made by Hand with Love. You will be Served in the Best Way. Natural ingredients are used mostly. You will get Wide range of products.</p>
+                    <p className='normal coffy-color'>This is the best ice cream I think I’ve ever had an existence of my life. It’s so creamy and delicious. There’s pieces of chocolate all around it, inside of it.  It’s just divine. It is amazing, everything tastes great you could eat a whole pint without even realizing it.</p>
                     <div className='d-flex justify-content-center'>
                         <button className='px-4 py-2 btn'>EXPLORE</button>
                     </div>
