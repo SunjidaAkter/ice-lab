@@ -1,0 +1,20 @@
+.point {
+    font-size: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    text-align: start;
+}
+
+.points {
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    text-align: start;
+}
+
+.impo {
+    color: orange;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+}
